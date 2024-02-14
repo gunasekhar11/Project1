@@ -1,0 +1,141 @@
+.exchange-card-container{
+  margin: 50px 50px 50px 10px;
+  min-height: 100vh;
+}
+
+.product{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.product .exchange-card {
+  width: auto;
+  display: grid;
+  grid-template-columns: 20% 65% 15%;
+  margin: 5px;
+  border: 2px solid #ededed;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product .exchange-card .card-img {
+  max-width: 100%;
+  max-height: 200px;
+  margin: 1rem auto;
+  object-fit: cover; 
+  transition: transform 0.3s;
+  border-radius: 5px;
+}
+
+
+.product .exchange-card .card-body{
+    text-align: left;
+    padding-left: 10px;
+    margin: 1rem;
+}
+
+.product .exchange-card .card-body .title{
+  color: rgba(0, 0, 0, 0.88);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.product .exchange-card .card-body .location{
+  color: rgba(0, 0, 0, 0.36);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.product .exchange-card .card-body .description {
+  margin-top: 10px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.62);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product .exchange-card .card-body .description li {
+  text-align: justify;
+  max-height: 9.6em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.product .exchange-card .card-body .description li::-webkit-scrollbar {
+  display: none;
+}
+
+
+.product .exchange-card .duration {
+  text-align: center;
+  margin: 1rem;
+  position: relative;
+  left: 1%;
+  height: 100px;
+}
+
+@media (max-width:768px){
+  .exchange-card-container{
+    margin: 10px 10px 50px 10px;
+  }
+  .product .exchange-card{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+  }
+  .product .exchange-card .duration{
+    margin: 0.2rem;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .product .exchange-card .card-img{
+    margin: 0.2rem auto;
+    max-height: 100px;
+    width: 100%;
+    object-fit: fill;
+  }
+  .product .exchange-card .card-body{
+    margin: 0.2rem;
+    text-align: left;
+  }
+  .product .exchange-card .card-body .title{
+    color: rgba(0, 0, 0, 0.88);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .product .exchange-card .card-body .location{
+    color: rgba(0, 0, 0, 0.36);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .product .exchange-card .card-body .description{
+    color: rgba(0, 0, 0, 0.62);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .product .exchange-card .card-body .description li{
+    max-height: 3rem;
+  }
+}

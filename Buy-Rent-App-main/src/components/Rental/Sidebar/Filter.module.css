@@ -1,0 +1,45 @@
+/* ResponsiveFilter.module.css */
+.filter {
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 14px;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.categories {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 8px;
+}
+
+select {
+  color: #000;
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+.filters{
+  width: 100%;
+  border: 0px;
+}

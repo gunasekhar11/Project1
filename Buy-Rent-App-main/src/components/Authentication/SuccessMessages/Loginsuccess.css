@@ -1,0 +1,93 @@
+.layout_success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.vector_logo_success {
+  width: 200px;
+  height: 200px;
+}
+
+.loginsuccess_message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+@media (max-width:768px){
+  .layout_success {
+    padding: 0px;
+    padding-top: 50px;
+  }
+  .vector_logo_success{
+    width: 100px;
+    height: 100px;
+  }
+  .loginsuccess_message{
+    font-size: 20px;
+  }
+}
+
+/* .vector_logo_success{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 540px;
+    top: 200px;
+    }
+.loginsuccess_message{
+position: absolute;
+width: 398px;
+height: 54px;
+left: 490px;
+top: 270px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 54px;
+color: #000000;
+}
+    
+    
+    
+    
+ @media (min-width:480px) and (max-width: 768px){
+  .vector_logo_success{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 380px;
+        top: 150px;
+        
+      }
+  .loginsuccess_message{
+        position: absolute;
+        margin-left:-135px;
+        top: 215px;
+        font-size: 20px;
+       
+    }  
+    }
+    
+    @media(max-width:480px){
+    .vector_logo_success{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      left: 120px;
+      top: 370px;
+    }
+    .loginsuccess_message{
+      position: absolute;
+      margin-left:-380px;
+      top: 445px;
+      font-size: 15px;
+      }
+    }
+    
+     */

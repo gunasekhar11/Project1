@@ -1,0 +1,147 @@
+.product-display{
+    margin: 10px;
+    min-height:100vh;
+}
+
+.product-display .main{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center
+}
+
+.product-display .main .product{
+    width: 250px;
+    height: 200px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-display .main .product .product-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.product-display .description{
+    width: 70%;
+    text-align: justify;
+    margin: 30px auto;
+    line-height: 30px;
+    /* border: 1px solid grey; */
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px 30px;
+    transition: 0.3s;
+
+}
+
+.product-display .description:hover{
+    
+    border-radius: 30px 10px;
+}
+
+.product-display .description .title{
+    color: rgba(0, 0, 0, 0.88);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.product-display .description .location ,.product-display .description .duration{
+    color: rgba(0, 0, 0, 0.36);
+    margin-top: 5px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.product-display .description .precautions, .product-display .description ul li{
+    color: rgba(0, 0, 0, 0.62);
+font-family: Inter;
+font-size: 18px;
+margin: 10px;
+font-weight: 500;
+font-style: normal;
+line-height: normal;
+} 
+
+
+.change-product-button{
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 130px;
+}
+
+.product-display .buttons{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product-display .buttons .exchange-button{
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+}
+
+.product-display .buttons .exchange-button:hover{
+    color: black;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.user-products {
+    list-style: none;
+    padding: 0;
+    margin: -20px auto;
+    overflow-y: auto;
+    width: 50%;
+    max-height: 200px;
+    border-radius: 10px;
+    border:1px solid black;
+  }
+  
+  .user-products .user-product-item {
+    margin: 0px auto;
+    height: auto;
+    border: 1px solid grey;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: white;
+    color:black;
+  }
+  
+  .user-products .user-product-item:hover {
+    background-color: var(--main-color);
+    color: white;
+  }
+  @media (max-width: 768px){
+    .product-display .main{
+        grid-template-columns: 100%;
+    }
+    .product-display .description{
+        width: 90%;
+    }
+    .product-display .buttons h2{
+        font-size: 14px;
+    }
+  }

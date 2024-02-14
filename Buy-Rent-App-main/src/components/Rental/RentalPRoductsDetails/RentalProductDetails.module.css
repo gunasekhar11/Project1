@@ -1,0 +1,190 @@
+.rental_products_details{
+  padding: 30px 50px;
+}
+.rental_products_details .ImageContainer{
+  display: flex;
+  justify-content:center;
+}
+.rental_products_details .ProductImage{
+height: 250px;
+width: auto;
+}
+.rental_products_details .arrow{
+  position: relative;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+
+.rental_products_details .productDetailsContainer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.rental_products_details .ProductDetails{
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.productDescription{
+  padding: 20px 30px;
+}
+.productDescriptiontitle{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.descriptionContainerText{
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.productName{
+  color: rgba(0, 0, 0, 0.793);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; 
+  display: block;
+  text-transform: capitalize;
+}
+.rating{
+  color: #303539;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 6px; /* 80% */
+  display: block;
+}
+.ratingText{
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  line-height: 10px;
+}
+.review{
+  color: var(--text-gray-60, #A6A6AA);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 88.889% */
+}
+.price{
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; 
+}
+.options{
+  color: #000;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  display: block;
+  line-height: 125%; /* 17.5px */
+}
+.colorsTable{
+  display: flex;
+}
+.colorsTable table{
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+.colorsTable table th{
+  text-transform: capitalize;
+}
+.colorsTable table th{
+  padding-bottom: 7px;
+}
+
+.rental_products_details .descriptionContainerText{
+  padding: 10px;
+ text-align: justify;
+}
+
+.productFooter{
+  background-color: rgb(238, 210, 193);
+  /* width: 100px; */
+  height: 100px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 30px; */
+  
+}
+
+.optionstext{
+  color: #616161;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; 
+  margin-bottom: 10px;
+  @media screen and (max-width:480px){
+    font-size: 19px;
+    
+  }
+}
+.totalPrice{
+  color: var(--text-gray-80, #3A3A3A);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-weight: bold;
+  line-height: 14px; /* 68.571% */
+}
+.rentButton{
+  background-color: #110202de;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin-left: 70px;
+  margin-top: 10px;
+  width: 100px;
+  height: 35px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 100%; 
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.rentButton:hover{
+  color: black;
+  background-color: white;
+  border: solid 1px black;
+}
+
+@media (max-width: 768px) {
+  .rental_products_details{
+    padding: 10px;
+  }
+  .rental_products_details .productDetailsContainer{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .rental_products_details .ProductDetails{
+    padding: 10px;
+  }
+  .rental_products_details .descriptionContainerText{
+    padding: 0px;
+   text-align: justify;
+  }
+}

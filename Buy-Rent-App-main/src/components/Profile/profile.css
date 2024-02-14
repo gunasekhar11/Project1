@@ -1,0 +1,104 @@
+.profile{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.profile .profile-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:122.681px;;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10.139px;
+    border: 1.014px solid rgba(201, 201, 201, 0.25);
+    background: rgba(217, 217, 217, 0.00);
+    box-shadow: 0px 4.05555534362793px 4.05555534362793px 0px rgba(0, 0, 0, 0.25);
+}
+
+.profile .profile-btn .icons{
+    width: 40px;
+    height: 40px;
+}
+
+.profile .profile-details{
+    width: 60%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10.139px;
+    border: 1.014px solid rgba(201, 201, 201, 0.25);
+    background: rgba(217, 217, 217, 0.00);
+    box-shadow: 0px 4.05555534362793px 4.05555534362793px 0px rgba(0, 0, 0, 0.25);
+}
+
+.profile .profile-details .name{
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.profile .profile-details .name .icons{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.profile .profile-details .name p{
+    margin: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+.profile .profile-details .details{
+    margin-top: 20px;
+    text-align:center;
+}
+.profile .profile-details .details h3{
+    margin: 20px auto;
+}
+.profile .profile-details .details div{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+}
+
+.profile .profile-details .details div p{
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    background: #FFF;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width:768px){
+    .profile{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .profile .profile-details{
+        margin: 20px auto;
+        width: 100%;
+    }
+    .profile .profile-details .name{
+        margin: 1px auto;
+        height: 40px;
+        justify-content: center;
+    }
+    .profile .profile-details .details{
+        text-align: center;
+        margin: 0px;
+    }
+    .profile .profile-details .details div{
+        display: flex;
+        justify-content:space-evenly;
+    }
+}

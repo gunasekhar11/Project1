@@ -1,0 +1,143 @@
+.buyy-display {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    min-height: 100vh;
+  }
+
+  .buyy-display .buy-display {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .buyy-display .buyproducts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .cardlink_buy{
+    text-decoration: none;
+    color: black;
+  }
+  .buyy-display .buyproducts .buycard {
+    width: 16rem;
+    height: 20rem;
+    border-radius: 10px;
+    border: 2px solid #ededed;
+    box-shadow: #57595A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 25px;
+    cursor: pointer;
+  }
+  
+  .buyy-display .buyproducts .buy-product-image {
+    align-items: center;
+  }
+  
+  .buyy-display .buyproducts .buy-product-image .buyimg {
+    height: 190px;
+    width: 200px;
+  }
+  
+  .buyy-display .buyproducts .buy-products-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .buyy-display .buyproducts .buy-products-description .card-title-buy {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .buyy-display .buyproducts .wishlist-heart-buy {
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 200px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .buyy-display .buyproducts .wishlist-heart-buy:hover {
+    color: red;
+  }
+  
+  .buyy-display .buyproducts .buy-products-description .buy-category {
+    color: #57595A;
+    font-size: 15px;
+  }
+  
+  .buyy-display .buyproducts .buy-products-description .price-buy {
+    font-weight: bold;
+    color: #57595A;
+    font-family: 'Inter';
+    font-style: normal;
+  }
+  
+  @media (max-width: 768px) {
+    .buyy-display {
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+    }
+  
+    .buyy-display .buy-display {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .buyy-display .buyproducts {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content:start;
+    }
+  
+    .buyy-display .buyproducts .buycard{
+        margin: 5px;
+        padding: 10px;
+        width: 160px;
+        height: 200px;
+    }
+    
+    .buyy-display .buyproducts .buy-product-image {
+      align-items: center;
+      width: 100%;
+      height: auto;
+    }
+    
+    .buyy-display .buyproducts .buy-product-image .buyimg {
+      margin-left: 10%;
+      height: 100px;
+      width: 120px;
+      margin-bottom: 10px;
+    }
+    
+    .buyy-display .buyproducts .buy-products-description {
+      gap: 3px;
+    }
+    
+    .buyy-display .buyproducts .buy-products-description .card-title-buy {
+      font-size: 15px;
+    }
+
+    .buyy-display .buyproducts .buy-products-description .buy-category{
+      font-size: 14px;
+    }
+    
+    .buyy-display .buyproducts .wishlist-heart-buy {
+      margin-top: -155px;
+      margin-left: 120px;
+      width: 15px;
+      height: 15px;
+    }
+
+    .buyy-display .buyproducts .buy-products-description .price-buy {
+      font-size: 13px;
+    }
+
+  }
+
+  

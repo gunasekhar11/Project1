@@ -1,0 +1,20 @@
+.layout_regunsuccess{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.layout_regunsuccess .vector_logo_regunsuccess{
+  width: 200px;
+  height: auto;
+}
+
+.layout_regunsuccess .ex_symbol{
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: -140px;
+  margin-bottom: -90px;
+}

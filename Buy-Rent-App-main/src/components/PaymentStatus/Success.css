@@ -1,0 +1,28 @@
+.success{
+    background-color: var(--main-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.success .icons{
+    width: 150px;
+    height: auto;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.success p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    .success{
+        max-height: 100px;
+    }
+}
+

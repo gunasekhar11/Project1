@@ -1,0 +1,124 @@
+.sidebar {
+    padding-top: 50px;
+    height: auto;
+    margin-right: 50px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.category{
+    width: 100%;
+}
+
+.category-select{
+    margin: 20px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline-style: none;
+    padding: 0px 10px;
+}
+
+.form-check{
+    margin: 10px;
+}
+
+.form-check-label{
+    margin-left: 10px;
+}
+
+.price-range{
+    width: 100%;
+}
+
+#priceRange {
+    -webkit-appearance: none;
+    background: linear-gradient(to right, #ff0000, #ff0000) no-repeat, #d3d3d3;
+    background-size: calc((100% - 1px) * (0) / 100) 100%, 100% 100%;
+    height: 10px;
+    border-radius: 5px;
+    outline: none;
+    transition: background-size 0.2s ease;
+  }
+  
+  #priceRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #priceRange::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: var(--main-color);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #priceRange::-webkit-slider-thumb:hover {
+    background: var(--main-color);
+  }
+  
+  #priceRange::-moz-range-thumb:hover {
+    background: var(--main-color);
+  }
+
+  .category-select{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    appearance: none;
+  }
+  
+  .category-select option {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    cursor: pointer;
+    appearance: none;
+  }
+
+  .category-select option:hover {
+    background-color: white;
+    color:black;
+  }
+  
+  .category-select option:checked {
+    background-color: black;
+    color: white;
+  }
+  
+  .category-select:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .category-select:focus {
+    outline: none;
+    box-shadow: 0 0 3px var(--main-color);
+  }
+
+@media (max-width :768px){
+  .category-select{
+    margin: 0px;
+    appearance:auto;
+  }
+}

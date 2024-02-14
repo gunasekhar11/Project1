@@ -1,0 +1,17 @@
+.exchange-screen{
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+
+.mobile-exchange-screen{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .exchange-screen{
+        display: none;
+    }
+    .mobile-exchange-screen{
+        display: block;
+    }
+}

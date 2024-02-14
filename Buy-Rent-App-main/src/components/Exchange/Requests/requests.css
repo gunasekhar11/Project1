@@ -1,0 +1,33 @@
+.requests{
+    margin: 20px auto;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.requests-header{
+    margin-bottom: 30px;
+}
+
+.requests-list{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.requests-card{
+    height: auto;
+    display: flex;
+    width: 50%;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .requests-card{
+        width: 90%;
+    }
+}
+

@@ -1,0 +1,49 @@
+.buy-post{
+    min-height: 100vh;
+  }
+  .buy-post .buy-post-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 100px auto;
+  }
+  
+  .buy-post .buy-post-form .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .buy-post .buy-post-form .input-field:focus {
+    outline: none;
+    border: 3px solid var(--main-color);
+  }
+  
+  .buy-post .buy-post-form .upload-button {
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ;
+  }
+  
+  .buy-post .buy-post-form .upload-button:hover {
+    background-color: black;
+    outline: none;
+}
+
+  @media (max-width:768px){
+    .buy-post .buy-post-form{
+      width: 90%;
+    }
+  }

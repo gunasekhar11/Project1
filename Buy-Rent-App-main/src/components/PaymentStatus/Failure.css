@@ -1,0 +1,27 @@
+.failure{
+    background-color: rgba(255, 0, 0, 0.568);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.failure .icons{
+    width: 150px;
+    height: auto;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.failure p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width:768px){
+    .failure{
+        min-height: 80vh;
+    }
+}
